@@ -1,16 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Tangerine&display=swap');
 
-body {
-    font-family:Roboto+slab, sans-serif;
-    font-weight: 400;
-    font-size: 175%;
-    color: #000033;
+/*clear default settings, set basic font styles in body*/
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-h1, h2, h3 {
+body {
+    font-family:Roboto+slab, sans-serif;
+    font-weight: 200;
+    font-size: 150%;
+    color: #000033;
+}
+
+br {
+    line-height: 30%;
+}
+
+/*headings and header*/
+
+h1 {
+    text-decoration: none;
+    letter-spacing: 2px;
     font-family: Tangerine, sans-serif;
-    font-size: 300%;
+    font-size: 350%;
+}
+
+h2, h3 {
+    font-family: Tangerine, sans-serif;
+    font-size: 250%;
+    letter-spacing: 2px;
     color:#330033;
+   
+}
+
+
+.company-logo {
+    background-color: #FADBD8;
+    text-decoration: none;
+}
+
+#book-tree-image {
+    height: 600px;
+    width: 40%;
+}
+
+/* style the nav-links*/
+.nav-links {
+    font-size: 75%;
+    float: left;
+    text-align: center;
+    color:#330033;
+    padding: 14px 16px;
+    background-color: #FADBD8;
+    text-decoration: none;
 }
 
