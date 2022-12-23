@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Tangerine&display=swap');
 
-/*clear default settings, set basic font styles in body*/
+/*clear default settings, set styles in body*/
 
 * {
     margin: 0;
@@ -15,17 +15,53 @@ body {
     color: #000033;
 }
 
-br {
-    line-height: 30%;
+/*header styling*/
+
+header{
+    height: 250px;
+    width: 100%;
+    background-color: #FADBD8;
 }
 
-/*headings and header*/
-
-h1 {
+#buiness-name {
+    margin-top: 50px;
+    margin-right: 15%;
+    float:right;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     font-family: Tangerine, sans-serif;
-    font-size: 350%;
+    font-size: 450%;
+    color:#330033;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+/* navigation styling*/
+nav {
+    width: 100%;
+    float: left;
+    font-size: 120%;
+    margin-left: 10px;
+}
+
+#active {
+    text-decoration: none;
+}
+
+.active {
+    color: #0033cc; 
+}
+
+.active a:hover {
+    color: #339900;
+}
+    
+/*br {
+    line-height: 30%;
 }
 
 h2, h3 {
@@ -34,27 +70,6 @@ h2, h3 {
     letter-spacing: 2px;
     color:#330033;
    
-}
+}*/
 
-
-.company-logo {
-    background-color: #FADBD8;
-    text-decoration: none;
-}
-
-#book-tree-image {
-    height: 600px;
-    width: 40%;
-}
-
-/* style the nav-links*/
-.nav-links {
-    font-size: 75%;
-    float: left;
-    text-align: center;
-    color:#330033;
-    padding: 14px 16px;
-    background-color: #FADBD8;
-    text-decoration: none;
-}
 
