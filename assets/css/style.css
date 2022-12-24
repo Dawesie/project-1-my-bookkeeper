@@ -76,13 +76,52 @@ h2 {
 }
 /*styling for about me*/
 #personal-details {
-height: 600px;
-width: 100%;
-margin-left: 5%;
-font-size: 100%;
-line-height: 40px;
+    height: 33%;
+    width: 100%;
+    margin-left: 5%;
+    font-size: 100%;
+    line-height: 40px;
+
 }
 
+/* mission statement*/
+#Mission-statement{
+    height: 33%;
+    width: 100%;
+    margin-left: 5%;
+    font-size: 100%;
+    line-height: 40px;
+}
+
+p {
+    margin-left: 5%;
+}
+
+/* footer */
+
+footer {
+    height: 100px;
+    /*width: 100%;
+    background-color: #FADBD8;*/
+}
+
+.social-networks {
+    text-align: center;
+    /*height: 100px;*/
+    width: 100%;
+    background-color: #FADBD8;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #330033;
+}
 
 
 
