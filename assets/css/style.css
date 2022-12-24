@@ -30,13 +30,13 @@ header{
     text-decoration: none;
     letter-spacing: 4px;
     font-family: Tangerine, sans-serif;
-    font-size: 450%;
+    font-size: 500%;
     color:#330033;
 }
 
 #logo {
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 3%;
     float: left;
 }
 
@@ -45,7 +45,7 @@ nav {
     width: 100%;
     float: left;
     font-size: 120%;
-    margin-left: 10px;
+    margin-left: 3%;
 }
 
 #active {
@@ -56,20 +56,33 @@ nav {
     color: #0033cc; 
 }
 
-.active a:hover {
+.active:hover {
     color: #339900;
 }
-    
-/*br {
-    line-height: 30%;
+/*styles for line breaks and headings*/
+
+br {
+    line-height: 200px;
 }
 
-h2, h3 {
+h2 {
     font-family: Tangerine, sans-serif;
-    font-size: 250%;
-    letter-spacing: 2px;
+    font-size: 200%;
+    letter-spacing: 4px;
     color:#330033;
+    margin-left: 5%;
+    text-decoration: underline wavy #330033 2px;
    
-}*/
+}
+/*styling for about me*/
+#personal-details {
+height: 600px;
+width: 100%;
+margin-left: 5%;
+font-size: 100%;
+line-height: 40px;
+}
+
+
 
 
