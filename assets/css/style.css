@@ -52,11 +52,7 @@ nav {
     text-decoration: none;
 }
 
-.active {
-    color: #0033cc; 
-}
-
-.active:hover {
+#active:hover {
     color: #339900;
 }
 /*styles for line breaks and headings*/
@@ -76,8 +72,9 @@ h2 {
 }
 /*styling for about me*/
 #personal-details {
-    height: 33%;
+    height: 300px;
     width: 100%;
+    margin-top: 3%;
     margin-left: 5%;
     font-size: 100%;
     line-height: 40px;
@@ -86,8 +83,9 @@ h2 {
 
 /* mission statement*/
 #Mission-statement{
-    height: 33%;
+    height: 300px;
     width: 100%;
+    margin-top: 3%;
     margin-left: 5%;
     font-size: 100%;
     line-height: 40px;
@@ -95,19 +93,26 @@ h2 {
 
 p {
     margin-left: 5%;
+    line-height: 40px;
 }
 
 /* footer */
 
 footer {
-    height: 100px;
-    /*width: 100%;
-    background-color: #FADBD8;*/
+    height: 250px;
+    width: 100%;
+    background-color: #FADBD8;
 }
+
+#footer-heading {
+    font-size: 200%;
+    margin-top: 10%;
+}
+
 
 .social-networks {
     text-align: center;
-    /*height: 100px;*/
+    height: 400px;
     width: 100%;
     background-color: #FADBD8;
 }
@@ -118,7 +123,7 @@ footer {
 
 .social-networks i {
     font-size: 160%;
-    margin: 1%;
+    margin: 5%;
     padding: 5%;
     color: #330033;
 }
