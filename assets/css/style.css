@@ -128,5 +128,35 @@ footer {
     color: #330033;
 }
 
+/*styling services offered*/
 
+#record-type {
+    height 600px;
+    background-color: yellow;
+}
+
+#services-offered {
+    height: 600px;
+    background-color: darkgray;
+}
+
+#left-text {
+    padding-top: 40px;
+    width: 33%;
+    float: left;
+    background-color: cyan;
+}
+
+#right-text {
+    padding-top: 40px;
+    width: 33%;
+    float: right;
+    background-color: blue;
+}
+
+#middle-text {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
+}
 
