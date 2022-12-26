@@ -92,7 +92,6 @@ h2 {
 }
 
 p {
-    margin-top: 5%;
     margin-left: 5%;
     line-height: 40px;
 }
@@ -131,6 +130,19 @@ footer {
 
 /*services offered*/
 
+#services-heading {
+    margin-top: 10%;
+}
+
+h3 {
+    font-family: Tangerine, sans-serif;
+    font-size: 150%;
+    letter-spacing: 4px;
+    color:#330033;
+    margin-left: 5%;
+    text-decoration: underline wavy #330033 2px;
+   
+}
 #record-type {
     height 800px;
     background-color: yellow;
@@ -142,6 +154,10 @@ footer {
 }
 
 #left-text {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 100%;
+    line-height: 40px;
     padding-top: 40px;
     width: 33%;
     float: left;
@@ -149,6 +165,10 @@ footer {
 }
 
 #right-text {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 100%;
+    line-height: 40px;
     padding-top: 40px;
     width: 33%;
     float: right;
@@ -156,9 +176,17 @@ footer {
 }
 
 #middle-text {
+    
+    font-size: 100%;
+    line-height: 40px;
     padding-top: 40px;
     width: 33%;
     margin: 0 auto;
     background-color: red;
+}
+
+
+#list-of-services {
+    margin-top: 3%;
 }
 
