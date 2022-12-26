@@ -92,6 +92,7 @@ h2 {
 }
 
 p {
+    margin-top: 5%;
     margin-left: 5%;
     line-height: 40px;
 }
@@ -128,10 +129,10 @@ footer {
     color: #330033;
 }
 
-/*styling services offered*/
+/*services offered*/
 
 #record-type {
-    height 600px;
+    height 800px;
     background-color: yellow;
 }
 
@@ -155,6 +156,7 @@ footer {
 }
 
 #middle-text {
+    padding-top: 40px;
     width: 33%;
     margin: 0 auto;
     background-color: red;
