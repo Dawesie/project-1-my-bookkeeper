@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
    <link rel="stylesheet" href="assets\css\style.css">
-
+   
     <title>My Pesonal Bookkeeper</title>
 </head>
 <body>
@@ -22,37 +22,57 @@
 
          
         <nav id="navigation-bar">
-            <a id="active" class="active" href="index.html">Home</a>
+            <a id="active"  href="index.html">Home</a>
             <a id="active" href="services.html">Services</a>
-            <a id="active" href="contact-me.html">Contact Me</a>              
+            <a id="active" class="active" href="contact-me.html">Contact Me</a>              
         </nav> 
             
     </header>
 
-<br>
+    <section id="contact-us">
+        <h2>Get In Touch:</h2>
+        <p>For further information and/or a free quote, send us your details and we get back to you.</p>
 
-    <section>   
-        <h2>About Me:</h2>
-           <div id="personal-details">
-                <ul>
-                    <li>I am an ATT certified bookkeeper.</li>
-                    <li>I offer a professional bookkeeping service to businesses in Caerphilly, and surrounding areas.</li>
-                    <li>I specialise in keeping books for sole traders and small to medium businesses.</li>
-                </ul>
-            </div>      
     </section>
+    
 
-<br>
+    <form method="post"> 
+       <div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" placeholder="Your Name" name="firstame" required>
+       </div> 
+       <br>
+       <div>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" placeholder="Your Surname" name="lastname" required>
+       </div>
+       <br>
+       <div>
+        <label for="coname">Company Name</label>
+        <input type="text" id="coname" placeholder="Company Name" name="coname" required>
+       </div> 
+       <br> 
+       <div>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Your Email" name="email" required>
+       </div> 
+       <br>
+       <div>
+            <p>I am interested in obtaining information on the follow:</p>
+                <input id="genbookkeeping" type="radio" name="type-of-info" value="general-bookkeeping">
+                <label for="genbookkeeping">General Bookkeping</label>
+                <input id="daybooks" type="radio" name="type-of-info" value="daybooks">
+                <label for="daybooks">Day Books</label>
+                <input id="vatreturns" type="radio" name="type-of-info" value="vatreturns">
+                <label for="vatreturns">VAT Returns</label>
+                <input id="alltypes" type="radio" name="type-of-info" value="alltypes" checked>
+                <label for="alltypes">All Services listed</label>
+       </div> 
+       <input type="submit" value="Send Your information">
+       
+    </form>
 
-     <section>
-        <h2>My Mission:</h2>
-            <div id="mission-statement">
-                <br>
-                <p>For you to focus on <strong>growing</strong> your buisiness, while I keep ordered records for you.</p>
-            </div>
-    </section>
 
-<br>
 
     <footer>
         

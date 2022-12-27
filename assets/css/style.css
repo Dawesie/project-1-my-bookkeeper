@@ -189,9 +189,11 @@ ul {
 }
 
 
-#list-of-services {
+#list-of-services, #contact-us {
     margin-top: 1%;
 }
+
+
 
 /* different size media queries*/
 
