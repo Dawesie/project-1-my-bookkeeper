@@ -131,7 +131,7 @@ footer {
 /*services offered*/
 
 #services-heading {
-    margin-top: 10%;
+    margin-top: 2%;
 }
 
 h3 {
@@ -144,13 +144,16 @@ h3 {
    
 }
 #record-type {
-    height 800px;
-    background-color: yellow;
+    height: 100px;
+}
+
+ul {
+    list-style: none;
 }
 
 #services-offered {
-    height: 600px;
-    background-color: darkgray;
+    height: 400px;
+    /*background-color: darkgray;*/
 }
 
 #left-text {
@@ -161,7 +164,7 @@ h3 {
     padding-top: 40px;
     width: 33%;
     float: left;
-    background-color: cyan;
+    
 }
 
 #right-text {
@@ -172,21 +175,21 @@ h3 {
     padding-top: 40px;
     width: 33%;
     float: right;
-    background-color: blue;
+    
 }
 
 #middle-text {
-    
+   
     font-size: 100%;
     line-height: 40px;
     padding-top: 40px;
     width: 33%;
     margin: 0 auto;
-    background-color: red;
+    
 }
 
 
 #list-of-services {
-    margin-top: 3%;
+    margin-top: 1%;
 }
 
