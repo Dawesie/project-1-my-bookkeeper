@@ -202,8 +202,8 @@ input[type="text"]{
     width: 50%;
     font-size: 100%;
     margin: 5px 0 20px;
-    border: 2px solid #330033;
-    border-radius: 2px;
+    border: 3px solid #330033;
+    border-radius: 3px;
 }
 
 input[type="email"]{
@@ -212,8 +212,8 @@ input[type="email"]{
     width: 50%;
     font-size: 100%;
     margin: 5px 0 20px;
-    border: 2px solid #330033;
-    border-radius: 2px;
+    border: 3px solid #330033;
+    border-radius: 3px;
 }
 
 #genbookkeeping, #daybooks, #vatreturns, #alltypes. #reset, #submit {
@@ -231,8 +231,8 @@ input[type="reset"]{
     width: 25%;
     font-size: 100%;
     margin: 5px 0 20px;
-    border: 2px solid #330033;
-    border-radius: 2px;
+    border: 3px solid #330033;
+    border-radius: 3px;
 }
 
 input[type="submit"]{
@@ -241,9 +241,30 @@ input[type="submit"]{
     width: 25%;
     font-size: 100%;
     margin: 5px 0 20px;
-    border: 2px solid #330033;
-    border-radius: 2px;
+    border: 3px solid #330033;
+    border-radius: 3px;
 }
+
+input[type="text"]:hover {
+       background:rgb(0, 225, 255);
+   
+}
+
+input[type="email"]:hover {
+    background:rgb(0, 225, 255);
+
+}
+
+input[type="reset"]:hover {
+    background:rgb(0, 225, 255);
+
+}
+
+input[type="submit"]:hover {
+    background:rgb(0, 225, 255);
+
+}
+
 
 /* different size media queries*/
 
