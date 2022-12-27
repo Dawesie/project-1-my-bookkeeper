@@ -153,7 +153,7 @@ ul {
 
 #services-offered {
     height: 400px;
-    /*background-color: darkgray;*/
+   
 }
 
 #left-text {
@@ -191,5 +191,41 @@ ul {
 
 #list-of-services {
     margin-top: 1%;
+}
+
+/* different size media queries*/
+
+/* Styling for media devices 1200px wide and down*/
+
+
+@media screen and (max-width: 1200px) {
+    #services-offered {
+        width: 65%;
+        height: 1200px;
+        margin: 3% auto;
+    }
+
+    #record-type {
+        padding: 30px 0;
+        margin: 3% auto;
+    }
+
+    #left-text, #right-text {
+        margin-top: 3%;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #middle-text {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0; 
+        margin: 3% auto;  
+    }
+
+   
+    
 }
 
