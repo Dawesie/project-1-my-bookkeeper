@@ -37,28 +37,30 @@
     
 
     <form method="post"> 
+        <br>
        <div>
-        <label for="fname">First Name</label>
+        <label for="fname">First Name:</label>
         <input type="text" id="fname" placeholder="Your Name" name="firstame" required>
        </div> 
        <br>
        <div>
-        <label for="lname">Last Name</label>
+        <label for="lname">Last Name:</label>
         <input type="text" id="lname" placeholder="Your Surname" name="lastname" required>
        </div>
        <br>
        <div>
-        <label for="coname">Company Name</label>
+        <label for="coname">Company Name:</label>
         <input type="text" id="coname" placeholder="Company Name" name="coname" required>
        </div> 
        <br> 
        <div>
-        <label for="email">Email Address</label>
+        <label for="email">Email Address:</label>
         <input type="email" id="email" placeholder="Your Email" name="email" required>
        </div> 
        <br>
        <div>
-            <p>I am interested in obtaining information on the follow:</p>
+            <p id="info-needed">I am interested in obtaining information on the follow:</p>
+            <br>
                 <input id="genbookkeeping" type="radio" name="type-of-info" value="general-bookkeeping">
                 <label for="genbookkeeping">General Bookkeping</label>
                 <input id="daybooks" type="radio" name="type-of-info" value="daybooks">
@@ -68,7 +70,9 @@
                 <input id="alltypes" type="radio" name="type-of-info" value="alltypes" checked>
                 <label for="alltypes">All Services listed</label>
        </div> 
-       <input type="submit" value="Send Your information">
+       <br>
+       <input id="reset" type="reset" value="Clear Form">
+       <input id="submit" type="submit" value="Send Your information">
        
     </form>
 

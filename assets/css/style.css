@@ -193,7 +193,57 @@ ul {
     margin-top: 1%;
 }
 
+/* styling for form elements*/
+form {margin-left: 5%;}
 
+input[type="text"]{
+    background: #FADBD8;
+    color: #330033;
+    width: 50%;
+    font-size: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #330033;
+    border-radius: 2px;
+}
+
+input[type="email"]{
+    background: #FADBD8;
+    color: #330033;
+    width: 50%;
+    font-size: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #330033;
+    border-radius: 2px;
+}
+
+#genbookkeeping, #daybooks, #vatreturns, #alltypes. #reset, #submit {
+    margin-left: 10%;
+}
+
+#info-needed {
+    margin-left: 0;
+    font-size: 150%;
+}
+
+input[type="reset"]{
+    background: #FADBD8;
+    color: #330033;
+    width: 25%;
+    font-size: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #330033;
+    border-radius: 2px;
+}
+
+input[type="submit"]{
+    background: #FADBD8;
+    color: #330033;
+    width: 25%;
+    font-size: 100%;
+    margin: 5px 0 20px;
+    border: 2px solid #330033;
+    border-radius: 2px;
+}
 
 /* different size media queries*/
 
