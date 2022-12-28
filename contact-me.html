@@ -31,7 +31,7 @@
 
     <section id="contact-us">
         <h2>Get In Touch:</h2>
-        <p>For further information and/or a free quote, send us your details and we get back to you.</p>
+        <p id="further-info">For further information and/or a free quote, send us your details and we get back to you.</p>
 
     </section>
     
@@ -40,39 +40,59 @@
         <br>
        <div>
         <label for="fname">First Name:</label>
+        </div>
+        <div>
         <input type="text" id="fname" placeholder="Your Name" name="firstame" required>
        </div> 
        <br>
        <div>
         <label for="lname">Last Name:</label>
+        </div>
+        <div>
         <input type="text" id="lname" placeholder="Your Surname" name="lastname" required>
        </div>
        <br>
        <div>
         <label for="coname">Company Name:</label>
+        </div>
+        <div>
         <input type="text" id="coname" placeholder="Company Name" name="coname" required>
        </div> 
        <br> 
        <div>
         <label for="email">Email Address:</label>
+        </div>
+        <div>
         <input type="email" id="email" placeholder="Your Email" name="email" required>
        </div> 
        <br>
-       <div>
+       <div id="info-arranged">
             <p id="info-needed">I am interested in obtaining information on the follow:</p>
             <br>
+            <div>
                 <input id="genbookkeeping" type="radio" name="type-of-info" value="general-bookkeeping">
                 <label for="genbookkeeping">General Bookkeping</label>
+            </div>
+            <div>
                 <input id="daybooks" type="radio" name="type-of-info" value="daybooks">
                 <label for="daybooks">Day Books</label>
+            </div>
+            <div>
                 <input id="vatreturns" type="radio" name="type-of-info" value="vatreturns">
                 <label for="vatreturns">VAT Returns</label>
+            </div>
+            <div>
                 <input id="alltypes" type="radio" name="type-of-info" value="alltypes" checked>
                 <label for="alltypes">All Services listed</label>
+            </div>
        </div> 
        <br>
+       <div>
        <input id="reset" type="reset" value="Clear Form">
-       <input id="submit" type="submit" value="Send Your information">
+        </div>
+        <div>
+       <input id="submit" type="submit" value="Send Your Details">
+    </div>
        
     </form>
 

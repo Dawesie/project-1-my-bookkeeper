@@ -203,7 +203,7 @@ form {margin-left: 5%;}
 input[type="text"]{
     background: #FADBD8;
     color: #330033;
-    width: 50%;
+    width: 75%;
     font-size: 100%;
     margin: 5px 0 20px;
     border: 3px solid #330033;
@@ -213,7 +213,7 @@ input[type="text"]{
 input[type="email"]{
     background: #FADBD8;
     color: #330033;
-    width: 50%;
+    width: 75%;
     font-size: 100%;
     margin: 5px 0 20px;
     border: 3px solid #330033;
@@ -232,7 +232,7 @@ input[type="email"]{
 input[type="reset"]{
     background: #FADBD8;
     color: #330033;
-    width: 25%;
+    width: 50%;
     font-size: 100%;
     margin: 5px 0 20px;
     border: 3px solid #330033;
@@ -242,7 +242,7 @@ input[type="reset"]{
 input[type="submit"]{
     background: #FADBD8;
     color: #330033;
-    width: 25%;
+    width: 50%;
     font-size: 100%;
     margin: 5px 0 20px;
     border: 3px solid #330033;
@@ -307,13 +307,7 @@ input[type="submit"]:hover {
         padding: 0;
     }
 
-    /* #left-text, #right-text {
-        margin-top: 3%;
-        width: 100%;
-        float: left;
-        padding: 0;
-    } */
-
+   
     #middle-text {
         clear: both;
         width: 100%;
@@ -321,6 +315,10 @@ input[type="submit"]:hover {
         padding: 0; 
         margin-top: 10%;  
     } 
+
+    #info-arranged {
+        display: block;
+    }
     
 }
 
@@ -363,6 +361,16 @@ input[type="submit"]:hover {
     
         margin: 2%;
     }
+
+    input[type="reset"]{
+        font-size: 50%;
+    }
+    
+    input[type="submit"]{
+        font-size: 50%;
+    }
+
+    
 }
 
 /* styling for media devices 650px wide and down */
@@ -435,10 +443,17 @@ input[type="submit"]:hover {
         #record {
             font-size: 100%;
         }
+
+        #info-needed {
+            font-size: 100%;
+        }
+        
         #personal-details, p {
             font-size: 75%;
             margin: 1%;
         }
+    
+       
     
         
     }
