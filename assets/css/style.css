@@ -116,7 +116,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    height:100px;
+    height: 300px;
     width: 100%;
     background-color: #FADBD8;
 }
@@ -291,7 +291,7 @@ input[type="submit"]:hover {
 
     #services-offered {
         width: 65%;
-        height: 1200px;
+        height: 750px;
         margin: 3% auto;
     }
 
@@ -301,18 +301,25 @@ input[type="submit"]:hover {
     }
 
     #left-text, #right-text {
-        margin-top: 3%;
+        margin-top: 10%;
         width: 100%;
         float: left;
         padding: 0;
     }
+
+    /* #left-text, #right-text {
+        margin-top: 3%;
+        width: 100%;
+        float: left;
+        padding: 0;
+    } */
 
     #middle-text {
         clear: both;
         width: 100%;
         float: left;
         padding: 0; 
-        margin: 3% auto;  
+        margin-top: 10%;  
     } 
     
 }
@@ -352,6 +359,10 @@ input[type="submit"]:hover {
     footer {
         height: 20px;
     }
+    #personal-details, p {
+    
+        margin: 2%;
+    }
 }
 
 /* styling for media devices 650px wide and down */
@@ -375,6 +386,20 @@ input[type="submit"]:hover {
     header{
         height: 150px;
     }
+
+    #services-heading {
+        font-size: 180%;
+
+    }
+
+    #personal-details, p {
+        margin: 2%;
+    }
+
+    .social-networks {
+        height: 100px;  
+    }
+
 }
 /* styling for media devices 450px wide and down */
 @media only screen and (max-width: 450px) {
@@ -407,7 +432,13 @@ input[type="submit"]:hover {
             font-size: 100%;
         }
 
+        #record {
+            font-size: 100%;
+        }
         #personal-details, p {
             font-size: 75%;
+            margin: 1%;
         }
+    
+        
     }
