@@ -23,7 +23,7 @@ header{
     background-color: #FADBD8;
 }
 
-#buiness-name {
+#business-name {
     margin-top: 50px;
     margin-right: 15%;
     float:right;
@@ -103,9 +103,9 @@ p {
 /* footer */
 
 footer {
-    height: 250px;
+    height: 100px;
     width: 100%;
-    background-color: #FADBD8;
+    /* background-color: #FADBD8; */
 }
 
 #footer-heading {
@@ -116,7 +116,7 @@ footer {
 
 .social-networks {
     text-align: center;
-    height: 400px;
+    height:100px;
     width: 100%;
     background-color: #FADBD8;
 }
@@ -275,9 +275,9 @@ input[type="submit"]:hover {
 /* Styling for media devices 1200px wide and down*/
 
 
-@media screen and (max-width: 1200px) {
-   
-    #business-name {
+@media only screen and (max-width: 1350px) { 
+
+   #business-name {
     margin-top: 50px;
     margin-right: 5%;
     float: right;
@@ -317,13 +317,97 @@ input[type="submit"]:hover {
     
 }
 
-/* styling for media devices 950px wide and down */
-@media screen and (max-width: 950px) {
+/* styling for media devices 850px wide and down */
+@media only screen and (max-width: 850px) {
+
+    #business-name {
+        margin-top: 50px;
+        margin-right: 0;
+        float: right;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-family: Tangerine, sans-serif;
+        font-size: 200%;
+        color: #330033;
+    }
+        
+    #genbookkeeping, #daybooks, #vatreturns, #alltypes, #reset, #submit {
+            margin-left: 2%;
+        }
+
     #navigation-bar {
         float: left;
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
+
+    .social-networks i {
+        font-size: 100%;
+        margin: 5%;
+        padding: 0%;
+        color: #330033;
+    }
+
+    footer {
+        height: 20px;
+    }
 }
 
+/* styling for media devices 650px wide and down */
+@media only screen and (max-width: 650px) {
+    #business-name {
+        margin-top: 50px;
+        margin-right: 0%;
+        float: right;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-family: Tangerine, sans-serif;
+        font-size: 150%;
+        color: #330033;
+    }
+
+    #logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    header{
+        height: 150px;
+    }
+}
+/* styling for media devices 450px wide and down */
+@media only screen and (max-width: 450px) {
+
+        #business-name {
+            margin-top: 40px;
+            margin-right: 0%;
+            float: right;
+            text-decoration: none;
+            letter-spacing: 4px;
+            font-family: Tangerine, sans-serif;
+            font-size: 100%;
+            color: #330033;
+        }
+
+        #logo {
+            width: 75px;
+            height: 75px;
+        }
+
+        #navigation-bar{
+            font-size: 75%;
+        }
+
+        header{
+            height: 110px;
+        }
+
+        h2 {
+            font-size: 100%;
+        }
+
+        #personal-details, p {
+            font-size: 75%;
+        }
+    }
