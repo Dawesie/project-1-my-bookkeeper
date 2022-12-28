@@ -52,6 +52,10 @@ nav {
     text-decoration: none;
 }
 
+.active {
+    color: blue;
+}
+
 #active:hover {
     color: #339900;
 }
@@ -216,7 +220,7 @@ input[type="email"]{
     border-radius: 3px;
 }
 
-#genbookkeeping, #daybooks, #vatreturns, #alltypes. #reset, #submit {
+#genbookkeeping, #daybooks, #vatreturns, #alltypes, #reset, #submit {
     margin-left: 10%;
 }
 
@@ -272,7 +276,18 @@ input[type="submit"]:hover {
 
 
 @media screen and (max-width: 1200px) {
-   #business-mane {font-size: 10vw;}
+   
+    #business-name {
+    margin-top: 50px;
+    margin-right: 5%;
+    float: right;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-family: Tangerine, sans-serif;
+    font-size: 300%;
+    color: #330033;
+   }
+
 
     #services-offered {
         width: 65%;
