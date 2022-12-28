@@ -317,7 +317,7 @@ input[type="submit"]:hover {
     
 }
 
-/* styling for media devices 950px and down */
+/* styling for media devices 950px wide and down */
 @media screen and (max-width: 950px) {
     #navigation-bar {
         float: left;
