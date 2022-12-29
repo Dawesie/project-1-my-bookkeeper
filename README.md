@@ -6,29 +6,57 @@ Persons using the website will find information about the credentials of the boo
 
 ## Features 
 ### Header
+
+![header alt](./readme-images/header.png)
+
 The header at the top of the page gives the company name and logo which conveys the intention of the site.
 
+
 ### Navigation Bar
+
+![navbar alt](./readme-images/navbar.png)
+
 - This is located at the top of the page on the left under the logo.  It links to the home page, services page and contact us page.
 - The navigation tool changes colour when hovered over and has a different colour when the site is on the active page.
 - The names used for the navigation bar elements gives a clear indication of what is available on each page.
 - The company name in the header, when clicked on will return the user to the home page.
 
+
+
 ### Launch Page/Home page
+
+![index alt](./readme-images/index.png)
+
 Gives a clear indication of the credential of the bookkeeper as well as the ethos behind the service offered.
 
 ## Services
+
+![services alt](./readme-images/services.png)
+
 Clearly indicated the bookkeeping services that are available to the client.
 
 ### Contact Us
+
+![contact alt](./readme-images/contact.png)
+
 - Allows the user to submit details to obtain more information and/quote for the bookkeeping services that are available.
 - Submissions won’t be accepted if required fields are filled or not filled in correctly.
 
 ## Follow us
+
+![follow alt](./readme-images/follow.png)
+
 This section at the footer of each page gives the user the opportunity to glean more information about the company and the ethos of the company.
 The follow us links will open in a new tab so that the user can still stay linked to company website.
 
 ## Testing
+
+![laptop alt](./readme-images/laptop.png)
+Page on laptop size.
+
+
+![mobile alt](./readme-images/mobile.png)
+Same page mobile size.
 
 - I tested the website on the chrome browser.
 - I confirmed that the site was responsive, looked good and functioned on all standard screen sizes using devtools device toolbar.
@@ -36,11 +64,20 @@ The follow us links will open in a new tab so that the user can still stay linke
 
 ### Validator Testing
 - HTML
+
+![HTML alt](./readme-images/HTML.png)
+
     - I ran the HTML code for each page through the official W3C validator.  I corrected the warning and errors indicated on each page until the code was validated.
 - CSS
+
+![CSS alt](./readme-images/css.png)
+
     - I ran the CSS code through the official W3C validator.  I corrected the warning and errors indicated on each page until the code was validated.
 
 - Accessibility
+
+![accessibility alt](./readme-images/accessibility.png)
+
     - I checked each page’s accessibility using lighthouse in devtools.  Each page was shown to be accessible with respect colours and fonts used.
 
 ### Bugs
@@ -59,6 +96,8 @@ The site was deployed through GitHub.
 
 ### Media
 Logo was provided from a free download from clipartmax by Anndee Taylor- Book Tree https://www.clipartmax.com/download/m2H7N4m2A0K9K9A0_anndee-taylor-book-tree/
+
+
 
 
 
