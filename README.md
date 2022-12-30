@@ -92,7 +92,11 @@ As I devloped the website, I fixed and corrected any bugs that I detected.
 To my knowledge there are no undetected bugs.
 
 ## Deployment
-The site was deployed through GitHub.
+The site was deployed through GitHub as follows:
+- In the GitHub repository, select project name, then navigate to “setting”, top right of the screen.
+- Navigate to “pages” in the menu on the left-hand side of the screen, once in GitHub pages, select none under branch and save.
+- This page will then provide a link to the website, listed below:
+
 
 ## Credits
 ### Content 
