@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Tangerine&display=swap');
-
-/*clear default settings, set styles in body*/
+/*import link non-standard text*/
 
 * {
     margin: 0;
@@ -17,7 +16,7 @@ body {
 
 /*header styling*/
 
-header{
+header {
     height: 250px;
     width: 100%;
     background-color: #FADBD8;
@@ -26,12 +25,12 @@ header{
 #business-name {
     margin-top: 50px;
     margin-right: 15%;
-    float:right;
+    float: right;
     text-decoration: none;
     letter-spacing: 4px;
     font-family: Tangerine, sans-serif;
     font-size: 500%;
-    color:#330033;
+    color: #330033;
 }
 
 #logo {
@@ -45,14 +44,14 @@ header{
 /* navigation styling*/
 nav {
     width: 100%;
-    float: left; 
+    float: left;
     font-size: 120%;
     margin-left: 3%;
-  
+
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 .active {
@@ -62,6 +61,7 @@ a {
 a:hover {
     color: #339900;
 }
+
 /*styles for line breaks and headings*/
 
 br {
@@ -72,11 +72,12 @@ h2 {
     font-family: Tangerine, sans-serif;
     font-size: 200%;
     letter-spacing: 4px;
-    color:#330033;
+    color: #330033;
     margin-left: 5%;
     text-decoration: underline wavy #330033 2px;
-   
+
 }
+
 /*styling for about me*/
 #personal-details {
     height: 300px;
@@ -89,7 +90,7 @@ h2 {
 }
 
 /* mission statement*/
-#Mission-statement{
+#Mission-statement {
     height: 300px;
     width: 100%;
     margin-top: 3%;
@@ -108,7 +109,7 @@ p {
 footer {
     height: 100px;
     width: 100%;
-    /* background-color: #FADBD8; */
+
 }
 
 #footer-heading {
@@ -124,7 +125,7 @@ footer {
     background-color: #FADBD8;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -142,14 +143,15 @@ footer {
 }
 
 h3 {
-    font-family: Tangerine, sans-serif;
+    font-family: "Tangerine", sans-serif;
     font-size: 150%;
     letter-spacing: 4px;
-    color:#330033;
+    color: #330033;
     margin-left: 5%;
     text-decoration: underline wavy #330033 2px;
-   
+
 }
+
 #record-type {
     height: 100px;
 }
@@ -160,7 +162,7 @@ ul {
 
 #services-offered {
     height: 400px;
-   
+
 }
 
 #left-text {
@@ -171,7 +173,7 @@ ul {
     padding-top: 40px;
     width: 33%;
     float: left;
-    
+
 }
 
 #right-text {
@@ -182,17 +184,17 @@ ul {
     padding-top: 40px;
     width: 33%;
     float: right;
-    
+
 }
 
 #middle-text {
-   
+
     font-size: 100%;
     line-height: 40px;
     padding-top: 40px;
     width: 33%;
     margin: 0 auto;
-    
+
 }
 
 
@@ -201,9 +203,11 @@ ul {
 }
 
 /* styling for form elements*/
-form {margin-left: 5%;}
+form {
+    margin-left: 5%;
+}
 
-input[type="text"]{
+input[type="text"] {
     background: #FADBD8;
     color: #330033;
     width: 75%;
@@ -213,7 +217,7 @@ input[type="text"]{
     border-radius: 3px;
 }
 
-input[type="email"]{
+input[type="email"] {
     background: #FADBD8;
     color: #330033;
     width: 75%;
@@ -223,7 +227,12 @@ input[type="email"]{
     border-radius: 3px;
 }
 
-#genbookkeeping, #daybooks, #vatreturns, #alltypes, #reset, #submit {
+#genbookkeeping,
+#daybooks,
+#vatreturns,
+#alltypes,
+#reset,
+#submit {
     margin-left: 10%;
 }
 
@@ -232,7 +241,7 @@ input[type="email"]{
     font-size: 150%;
 }
 
-input[type="reset"]{
+input[type="reset"] {
     background: #FADBD8;
     color: #330033;
     width: 50%;
@@ -242,7 +251,7 @@ input[type="reset"]{
     border-radius: 3px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background: #FADBD8;
     color: #330033;
     width: 50%;
@@ -253,22 +262,22 @@ input[type="submit"]{
 }
 
 input[type="text"]:hover {
-       background:rgb(0, 225, 255);
-   
+    background: rgb(0, 225, 255);
+
 }
 
 input[type="email"]:hover {
-    background:rgb(0, 225, 255);
+    background: rgb(0, 225, 255);
 
 }
 
 input[type="reset"]:hover {
-    background:rgb(0, 225, 255);
+    background: rgb(0, 225, 255);
 
 }
 
 input[type="submit"]:hover {
-    background:rgb(0, 225, 255);
+    background: rgb(0, 225, 255);
 
 }
 
@@ -278,18 +287,18 @@ input[type="submit"]:hover {
 /* Styling for media devices 1200px wide and down*/
 
 
-@media only screen and (max-width: 1350px) { 
+@media only screen and (max-width: 1350px) {
 
-   #business-name {
-    margin-top: 50px;
-    margin-right: 5%;
-    float: right;
-    text-decoration: none;
-    letter-spacing: 4px;
-    font-family: Tangerine, sans-serif;
-    font-size: 300%;
-    color: #330033;
-   }
+    #business-name {
+        margin-top: 50px;
+        margin-right: 5%;
+        float: right;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-family: Tangerine, sans-serif;
+        font-size: 300%;
+        color: #330033;
+    }
 
 
     #services-offered {
@@ -303,26 +312,27 @@ input[type="submit"]:hover {
         margin: 3% auto;
     }
 
-    #left-text, #right-text {
+    #left-text,
+    #right-text {
         margin-top: 10%;
         width: 100%;
         float: left;
         padding: 0;
     }
 
-   
+
     #middle-text {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0; 
-        margin-top: 10%;  
-    } 
+        padding: 0;
+        margin-top: 10%;
+    }
 
     #info-arranged {
         display: block;
     }
-    
+
 }
 
 /* styling for media devices 850px wide and down */
@@ -338,10 +348,15 @@ input[type="submit"]:hover {
         font-size: 200%;
         color: #330033;
     }
-        
-    #genbookkeeping, #daybooks, #vatreturns, #alltypes, #reset, #submit {
-            margin-left: 2%;
-        }
+
+    #genbookkeeping,
+    #daybooks,
+    #vatreturns,
+    #alltypes,
+    #reset,
+    #submit {
+        margin-left: 2%;
+    }
 
     #navigation-bar {
         float: left;
@@ -360,20 +375,22 @@ input[type="submit"]:hover {
     footer {
         height: 20px;
     }
-    #personal-details, p {
-    
+
+    #personal-details,
+    p {
+
         margin: 2%;
     }
 
-    input[type="reset"]{
-        font-size: 50%;
-    }
-    
-    input[type="submit"]{
+    input[type="reset"] {
         font-size: 50%;
     }
 
-    
+    input[type="submit"] {
+        font-size: 50%;
+    }
+
+
 }
 
 /* styling for media devices 650px wide and down */
@@ -389,12 +406,12 @@ input[type="submit"]:hover {
         color: #330033;
     }
 
-    #logo{
+    #logo {
         width: 100px;
         height: 100px;
     }
 
-    header{
+    header {
         height: 150px;
     }
 
@@ -403,60 +420,63 @@ input[type="submit"]:hover {
 
     }
 
-    #personal-details, p {
+    #personal-details,
+    p {
         margin: 2%;
     }
 
     .social-networks {
-        height: 100px;  
+        height: 100px;
     }
 
 }
+
 /* styling for media devices 450px wide and down */
 @media only screen and (max-width: 450px) {
 
-        #business-name {
-            margin-top: 40px;
-            margin-right: 0%;
-            float: right;
-            text-decoration: none;
-            letter-spacing: 4px;
-            font-family: Tangerine, sans-serif;
-            font-size: 100%;
-            color: #330033;
-        }
-
-        #logo {
-            width: 75px;
-            height: 75px;
-        }
-
-        #navigation-bar{
-            font-size: 75%;
-        }
-
-        header{
-            height: 110px;
-        }
-
-        h2 {
-            font-size: 100%;
-        }
-
-        #record {
-            font-size: 100%;
-        }
-
-        #info-needed {
-            font-size: 100%;
-        }
-        
-        #personal-details, p {
-            font-size: 75%;
-            margin: 1%;
-        }
-    
-       
-    
-        
+    #business-name {
+        margin-top: 40px;
+        margin-right: 0%;
+        float: right;
+        text-decoration: none;
+        letter-spacing: 4px;
+        font-family: Tangerine, sans-serif;
+        font-size: 100%;
+        color: #330033;
     }
+
+    #logo {
+        width: 75px;
+        height: 75px;
+    }
+
+    #navigation-bar {
+        font-size: 75%;
+    }
+
+    header {
+        height: 110px;
+    }
+
+    h2 {
+        font-size: 100%;
+    }
+
+    #record {
+        font-size: 100%;
+    }
+
+    #info-needed {
+        font-size: 100%;
+    }
+
+    #personal-details,
+    p {
+        font-size: 75%;
+        margin: 1%;
+    }
+
+
+
+
+}

@@ -29,7 +29,7 @@ The header at the top of the page gives the company name and logo which conveys 
 
 Gives a clear indication of the credential of the bookkeeper as well as the ethos behind the service offered.
 
-## Services
+### Services
 
 ![services alt](./readme-images/services.png)
 
@@ -42,12 +42,19 @@ Clearly indicated the bookkeeping services that are available to the client.
 - Allows the user to submit details to obtain more information and/quote for the bookkeeping services that are available.
 - Submissions won’t be accepted if required fields are filled or not filled in correctly.
 
-## Follow us
+### Follow us
 
 ![follow alt](./readme-images/follow.png)
 
 This section at the footer of each page gives the user the opportunity to glean more information about the company and the ethos of the company.
 The follow us links will open in a new tab so that the user can still stay linked to company website.
+
+
+### User experience
+- A first-time user will get value from the site because the landing page gives a clear indication of what the site is for, and the navigation bar by their titles indicates what information is available on the pages of the site.  The follow me, will allow the first-time user to glean additional information about the business and the owner.
+
+- Users returning to the site will also get value from the site because the layout is simple, navigation bar is easy to find, and they will be able to navigate quickly to the information they are searching for.
+
 
 ## Testing
 
