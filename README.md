@@ -94,8 +94,9 @@ To my knowledge there are no undetected bugs.
 ## Deployment
 The site was deployed through GitHub as follows:
 - In the GitHub repository, select project name, then navigate to “setting”, top right of the screen.
-- Navigate to “pages” in the menu on the left-hand side of the screen, once in GitHub pages, select none under branch and save.
+- Navigate to “pages” in the menu on the left-hand side of the screen, once in GitHub pages, select none under branch, then sselect main then save.
 - This page will then provide a link to the website, listed below:
+ https://dawesie.github.io/project-1-my-bookkeeper/
 
 
 ## Credits
